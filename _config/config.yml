@@ -1,0 +1,11 @@
+---
+Name: silverware-gallery
+---
+
+# Configure Content Controller:
+
+SilverStripe\CMS\Controllers\ContentController:
+  required_js:
+    - "silverware/gallery: client/dist/js/bundle.js"
+  required_css:
+    - "silverware/gallery: client/dist/styles/bundle.css"

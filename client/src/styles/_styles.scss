@@ -1,0 +1,47 @@
+/* SilverWare Gallery Styles
+===================================================================================================================== */
+
+.gallery,
+.galleryalbum {
+  
+  .list {
+    
+    .items {
+      
+      > article.item {
+        
+        > section.content {
+          
+          margin-top: $gallery-item-margin;
+          text-align: $gallery-item-text-align;
+          
+          > header > * {
+            font-size: $gallery-item-font-size;
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+.galleryalbum,
+.galleryimage {
+  
+  article {
+    
+    > header > * {
+      margin-bottom: 0;
+    }
+    
+    > div.detail-fields {
+      margin-top: $spacer-quarter;
+    }
+    
+  }
+  
+}
