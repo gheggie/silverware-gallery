@@ -88,6 +88,14 @@ class GalleryAlbum extends Page implements ListSource
     private static $icon = 'silverware/gallery: admin/client/dist/images/icons/GalleryAlbum.png';
     
     /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_GalleryAlbum';
+    
+    /**
      * Defines the default child class for this object.
      *
      * @var string

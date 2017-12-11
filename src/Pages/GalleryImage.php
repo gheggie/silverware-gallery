@@ -64,6 +64,14 @@ class GalleryImage extends Page
     private static $icon = 'silverware/gallery: admin/client/dist/images/icons/GalleryImage.png';
     
     /**
+     * Defines the table name to use for this object.
+     *
+     * @var string
+     * @config
+     */
+    private static $table_name = 'SilverWare_GalleryImage';
+    
+    /**
      * Determines whether this object can exist at the root level.
      *
      * @var boolean
