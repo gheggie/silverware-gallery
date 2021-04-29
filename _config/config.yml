@@ -1,0 +1,10 @@
+Image:
+  extensions:
+    - GalleryImageExtension
+
+GalleryAlbum:
+  max_file_number: 20
+
+LeftAndMain:
+  extra_requirements_javascript:
+    - silverware-gallery/javascript/cms/cms.js

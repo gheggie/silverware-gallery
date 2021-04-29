@@ -1,0 +1,64 @@
+/* SilverWare Gallery CSS Definitions:
+===================================================================================================================== */
+
+.listcomponent.gallery div.items > article {
+  width: 100%;
+  margin: 0;
+  padding-right: 0;
+  padding-bottom: 2rem;
+}
+
+.listcomponent.gallery div.items > article > div.image {
+  margin-bottom: 0;
+}
+
+.listcomponent.gallery div.items > article > div.image img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.listcomponent.gallery div.items > article > section.content > header {
+  margin-top: 1rem;
+}
+
+.listcomponent.gallery div.items > article > section.content > header > h3 {
+  margin: 0;
+  height: 3.6rem;
+  padding: 0 1rem;
+  line-height: 1.3;
+  overflow: hidden;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+.listcomponent.gallery div.items.titles-hidden div.items > article > section.content {
+  display: none;
+}
+
+/* Media Queries:
+===================================================================================================================== */
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+  
+  .listcomponent.gallery div.items > article {
+    width: 50%;
+    float: left;
+    clear: none;
+    padding-right: 2rem;
+  }
+  
+}
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+  
+  .listcomponent.gallery div.items > article {
+    width: 25%;
+  }
+  
+}
