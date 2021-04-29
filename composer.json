@@ -1,8 +1,8 @@
 {
-    "name": "praxisnetau/silverware-gallery",
+    "name": "silverware/gallery",
     "description": "Gallery module for SilverWare.",
     "type": "silverstripe-module",
-    "homepage": "https://bitbucket.org/praxisnetau/silverware-gallery",
+    "homepage": "https://github.com/praxisnetau/silverware-gallery",
     "keywords": ["silverstripe", "silverware", "gallery"],
     "license": "BSD-3-Clause",
     "authors": [
@@ -14,9 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3,<7",
-        "praxisnetau/silverware": "~1.0",
-        "praxisnetau/silverware-lightgallery": "~1.0"
+        "php": ">=5.3.3",
+        "silverware/silverware": "3.x.x-dev"
     },
     "extra": {
         "installer-name": "silverware-gallery"
